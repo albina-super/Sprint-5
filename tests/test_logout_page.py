@@ -2,7 +2,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 from conftest import chrome
-from tests.data import EMAIL, PASSWORD
+from data import EMAIL, PASSWORD
 from tests.locators import Locators
 
 

@@ -1,7 +1,7 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from tests.data import PASSWORD, EMAIL
+from data import PASSWORD, EMAIL
 from tests.locators import Locators
 
 

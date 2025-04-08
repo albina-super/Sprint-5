@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 
-from tests.data import URL
+from data import URL
 
 
 @pytest.fixture
