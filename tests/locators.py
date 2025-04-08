@@ -39,14 +39,6 @@ class Locators:
     # кнопка логаута
     LOGOUT_BUTTON = By.XPATH, '//*[contains(@class, "Account_button") and text()="Выход"]'
     # вкладка соусы на главной
-    SAUCE_TAB = By.XPATH, '//*[contains(@class, "text_type_main-default") and text()="Соусы"]'
-    # заголовок вкладки соусы
-    SAUCE_TITLE = By.XPATH, '//*[contains(@class, "text_type_main-medium") and contains(text(), "Соусы")]'
-    # вкладка Булки на главной
-    BURGER_BUNS_TAB = By.XPATH, '//*[contains(@class, "text_type_main-default") and text()="Булки"]'
-    # заголовок вкладки Булки
-    BURGER_BUNS_TITLE = By.XPATH, '//*[contains(@class, "text_type_main-medium") and contains(text(), "Булки")]'
-    # вкладка Начинки
-    BURGER_FILLING_TAB = By.XPATH, '//*[contains(@class, "text_type_main-default") and text()="Начинки"]'
-    # Заголовок вкладки Начинки
-    BURGER_FILLING_TITLE = By.XPATH, '//*[contains(@class, "text_type_main-medium") and contains(text(), "Начинки")]'
+    SAUCE_TAB = By.XPATH, '//*[contains(@class, "tab_tab") and .//span[text()="Соусы"]]'
+    BURGER_BUNS_TAB = By.XPATH, '//*[contains(@class, "tab_tab") and .//span[text()="Булки"]]'
+    BURGER_FILLING_TAB = By.XPATH, '//*[contains(@class, "tab_tab") and .//span[text()="Начинки"]]'
